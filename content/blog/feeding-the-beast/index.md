@@ -1,7 +1,8 @@
 ---
-title: New Beginnings
+title: Feeding The Beast - How to beat late stage capitalism
 date: "2015-05-28T22:40:32.169Z"
-displayDate: "2020-01-02"
+displayDate: "2020-02-02"
+year: "2020"
 type: Code
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 featured: false

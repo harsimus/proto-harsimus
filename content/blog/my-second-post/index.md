@@ -1,6 +1,13 @@
 ---
 title: My Second Post!
 date: "2015-05-06T23:46:37.121Z"
+displayDate: "2020-01-04"
+year: "2020"
+type: Words
+featured: false
+thumbnail:
+    src: ""
+    alt: ""
 ---
 
 Wow! I love blogging so much already.

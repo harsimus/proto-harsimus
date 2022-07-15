@@ -8,14 +8,45 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
+      <div>
+        <h1 className="main-heading">
+          <Link to="/">{title}</Link>
+        </h1>
+        <p>— the works of Michael C. Martinez → <span><Link to="/">info</Link></span></p>
+        {/* <ul>
+          <li>
+            <sup>TITLE</sup><p>harsim.us</p>
+          </li>
+          <li>
+            <sup>VER</sup><p>1.0</p>
+          </li>
+          <li>
+            <sup>EMAIL</sup><a href="mailto: michael@harsim.us">michael@harsim.us</a>
+          </li>
+          <li>
+            <sup>RESUME</sup><a href="/" download>mcmartinezresume.pdf</a>
+          </li>
+          <li>
+            <sup>COMPANY</sup><p>DIAL UP</p>
+          </li>
+          <li>
+            <sup>APPROVED BY</sup><p>Michael C. Martinez</p>
+          </li>
+          <li>
+            <sup>DESCRIPTION</sup><p>The works of Michael C. Martinez</p>
+          </li>
+        </ul> */}
+        {/* <div className="byline">
+          <sup>EMAIL</sup><a href="mailto: michael@harsim.us">michael@harsim.us</a>
+          {` `}
+          <sup>RESUME</sup><a href="/static/favicon.ico" download>mcmresume.pdf</a>
+        </div> */}
+      </div>
     )
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        {title}
+        ← {title}
       </Link>
     )
   }
@@ -25,9 +56,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        © {new Date().getFullYear()} — Michael C. Martinez
+        {/* {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a> */}
       </footer>
     </div>
   )

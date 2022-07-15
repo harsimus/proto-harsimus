@@ -23,15 +23,34 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          {/* <div className="byline">
+            <p><sup>DATE</sup> {post.frontmatter.displayDate}</p>
+            <p><sup>TYPE</sup> {post.frontmatter.type}</p>
+            <p><sup>DESCRIPTION</sup> {post.frontmatter.description}</p>
+          </div> */}
         </header>
-        <section
+        <div className="with-sidebar">
+          <div className="sidebar">
+            <div className="sidebar-content">
+              <p><sup>DATE</sup>  {post.frontmatter.displayDate}</p>
+              <p><sup>TYPE</sup>  {post.frontmatter.type}</p>
+              <p><sup>DESCRIPTION</sup> {post.frontmatter.description}</p>
+            </div>
+          </div>
+          <div className="not-sidebar">
+            <section
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              itemProp="articleBody"
+            />
+          </div>
+        </div>
+        {/* <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
-        />
+        /> */}
         <hr />
         <footer>
-          <Bio />
+          {/* <Bio /> */}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -84,7 +103,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        displayDate
+        type
         description
+        featured
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

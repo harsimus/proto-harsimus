@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "harsimus",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "An archive of the works and thoughts of Michael C. Martinez.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Michael C. Martinez <michael@harsim.us>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
     "gatsby": "^4.5.4",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.5.0",
     "gatsby-plugin-gatsby-cloud": "^4.5.2",
     "gatsby-plugin-google-analytics": "^4.5.0",

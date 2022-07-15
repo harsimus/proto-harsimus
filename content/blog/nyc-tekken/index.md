@@ -1,12 +1,12 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-displayDate: "2020-01-06"
+title: NYC Tekken
+date: "2020-01-01"
+displayDate: "2020-01-01"
 year: "2020"
-type: Words
-description: "Hello World"
+type: Design
+description: "NYC Tekken is an community organization that runs events foccused on playing games from the classic, 3D fighting game series TEKKEN. I have been the designer for the organization since early 2020."
 featured: true
-status: Ongoing
+status: ONGOING
 thumbnail:
     src: "./salty_egg.jpg"
     alt: "A salty egg"
@@ -28,6 +28,7 @@ Oh, and here's a great quote from this Wikipedia on
 > firm-textured, round yolk that is bright orange-red in color.
 
 ![Chinese Salty Egg](./salty_egg.jpg)
+*Test Caption with a link: [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg)*
 
 You can also write code blocks here!
 
