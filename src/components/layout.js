@@ -12,7 +12,7 @@ const Layout = ({ location, title, children }) => {
         <h1 className="main-heading">
           <Link to="/">{title}</Link>
         </h1>
-        <p>— the works of Michael C. Martinez → <span><Link to="/">info</Link></span></p>
+        <p>— the works of Michael C. Martinez → <span><Link to="/info">info</Link></span></p>
         {/* <ul>
           <li>
             <sup>TITLE</sup><p>harsim.us</p>
