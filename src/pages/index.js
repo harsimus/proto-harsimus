@@ -99,9 +99,9 @@ const BlogIndex = ({ data, location }) => {
                     </Link>
                   </h1>
                   <div className="byline">
-                    <small><sup>TYPE</sup>{` `}{post.frontmatter.type}</small>
+                    <p><sup>TYPE</sup>{` `}{post.frontmatter.type}</p>
                     {` `}
-                    <small><sup>DATE</sup>{` `}{post.frontmatter.displayDate}</small>
+                    <p><sup>DATE</sup>{` `}{post.frontmatter.displayDate}</p>
                   </div>
                   {/* <div className="graphic">
                   {

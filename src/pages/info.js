@@ -21,6 +21,9 @@ const BlogInfo = ({ data, location }) => {
       <Seo title="Info" />
       <p><i>Info —</i></p>
       <div>
+        <section>
+            <p>Michael C. Martinez is the 739th best Remy player in Street Fighter III: 3rd Strike.</p>
+        </section>
       </div>
     </Layout>
   )

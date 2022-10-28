@@ -375,10 +375,11 @@ a:focus {
 .main-heading {
   font-size: 8vw;
   margin: 0;
+  padding-bottom: var(--spacing-1);
 }
 
 .main-heading h1 {
-  font-size: 5rem;
+  font-size: var(--fontSize-5);
 }
 
 .post-list-item {
