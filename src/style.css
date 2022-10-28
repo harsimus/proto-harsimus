@@ -373,13 +373,13 @@ a:focus {
 }
 
 .main-heading {
-  font-size: 8vw;
+  font-size: var(--fontSize-7);
   margin: 0;
-  padding-bottom: var(--spacing-1);
+  padding-bottom: var(--spacing-2);
 }
 
 .main-heading h1 {
-  font-size: var(--fontSize-5);
+  font-size: var(--fontSize-7);
 }
 
 .post-list-item {
