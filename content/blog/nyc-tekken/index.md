@@ -1,5 +1,5 @@
 ---
-title: NYC Tekken
+title: NYC Tekken Art Direction
 date: "2020-01-01"
 displayDate: "2020-01-01"
 year: "2020"

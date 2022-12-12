@@ -1,9 +1,9 @@
 ---
-title: Zero Mile Mark
+title: Zero Mile Mark Costume Design
 date: "2021-10-01"
 displayDate: "2020-01-01"
 year: "2021"
-type: Costume
+type: Design
 description: "NYC Tekken is an community organization that runs events foccused on playing games from the classic, 3D fighting game series TEKKEN. I have been the designer for the organization since early 2020."
 featured: true
 status: ONGOING

@@ -1,0 +1,16 @@
+---
+title: H2NOW Data Pipeline	
+date: "2030-01-01"
+displayDate: "2020-01-01"
+year: "2022"
+type: code
+description: "NYC Tekken is an community organization that runs events focused on playing games from the classic, 3D fighting game series TEKKEN. I have been the designer for the organization since early 2020."
+featured: true
+status: ONGOING
+---
+
+For the past two years, I have worked as the main backend engineer for Current Water’s H2NOW Chicago water quality project. The project saw sensors placed in three locations in Chicago River where they recorded data around the clock on data points such as temperature, turbidity, and tryptophan. This data was to be fed into a database for storage and later analysis under the guidelines of scientists on the team. We then output the relevant data and analysis to a web page that displayed graphs of the trends and gauges meant to alert citizens of the current quality of the river. The importance of the web page was its ability to update people on the safety of the water in real time, especially since people use the waterways for recreational purposes during the warmer months. 
+
+I was tasked with designing and implementing the entire system to get the data from the sensors and to the webpage with all of the necessary transformation and calculations needed. In order to better manage the work and allow for easy diagnosis of problems, I broke the overall system into three parts: Collection, Analysis, and Output. The collection part focused on pulling the data from the sensors and storing them in one place with a unified data structure tailored for our analysis and output processes. One of the three had come from a different manufacturer so that meant that I had two APIs to contend with, making a good chunk of the early work focused on finding the data we were looking for in the frequency that we wanted. The analysis part was simply the continual aggregation of data the had collected in order to produce the necessary points of interest. This involved implementing some very precious functions developed by out scientists and took some trial and error with converting their math into workable code. The final step focused on making all of this information available to the engineers working on the front end of the projects webpage. After exploring some different options, we settled on a REST API to allow for the project to scale to any possible needs since everyone on the team was charting new territory with this work and were figuring out best approaches as we went along. 
+
+Overall, the entire approach of my design was scalability and stability. This project was intended as a test bed for similar deployments in other bodies of water, so making a system that could grow to meet the demands of larger amounts of data and be reliable enough to be accessed by around the clock was of great importance. While I didn’t have much experience with the technology, I landed on using Amazon Web Services as the backbone of the project. This decision was made because we could use several of their services to implement each step of the system without any worry about scalability. The AWS documentation had several examples of systems similar to what I was designing so it meant that I didn’t have to reinvent the wheel at any point of building this pipeline. The 

@@ -5,7 +5,7 @@ displayDate: "2020-01-01"
 year: "20??"
 type: Game
 description: "NYC Tekken is an community organization that runs events foccused on playing games from the classic, 3D fighting game series TEKKEN. I have been the designer for the organization since early 2020."
-featured: true
+featured: false
 status: ONGOING
 thumbnail:
     src: "./salty_egg.jpg"
